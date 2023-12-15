@@ -5,8 +5,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int choice; 
-            string i = "*";
+            int choice;
+            char dauSao = '*';
             Console.WriteLine("Menu");
             Console.WriteLine("1. Ve hinh chu nhat");
             Console.WriteLine("2. Ve hinh tam giac vuong (top-right)");
@@ -27,6 +27,14 @@ namespace ConsoleApp1
             {
                 case 1:
                     Console.WriteLine("Ve hinh chu nhat");
+                    for (int i = 0; i <=3; i++) ;
+                    {
+                       Console.WriteLine(dauSao);
+                        for (int j = 0; j <=7; j++) ;
+                        {
+                            Console.WriteLine(dauSao);
+                        }
+                    }
                     break;
                 case 2:
                     Console.WriteLine("Ve hinh tam giac vuong (top-right)");
